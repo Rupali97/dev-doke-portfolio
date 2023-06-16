@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dev-doke-portfolio/static/css/main.bb03db6f.css",
+    "main.js": "/dev-doke-portfolio/static/js/main.c82c77ba.js",
+    "static/js/787.56dc729e.chunk.js": "/dev-doke-portfolio/static/js/787.56dc729e.chunk.js",
+    "static/media/rupali.png": "/dev-doke-portfolio/static/media/rupali.e13419fcb750308b27f3.png",
+    "index.html": "/dev-doke-portfolio/index.html",
+    "main.bb03db6f.css.map": "/dev-doke-portfolio/static/css/main.bb03db6f.css.map",
+    "main.c82c77ba.js.map": "/dev-doke-portfolio/static/js/main.c82c77ba.js.map",
+    "787.56dc729e.chunk.js.map": "/dev-doke-portfolio/static/js/787.56dc729e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb03db6f.css",
+    "static/js/main.c82c77ba.js"
+  ]
+}
