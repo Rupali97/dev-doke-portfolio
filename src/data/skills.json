@@ -1,0 +1,47 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "skillName": "HTML",
+      "amount": "95"
+    },
+    {
+      "id": 1,
+      "skillName": "CSS/Sass",
+      "amount": "90"
+    },
+    {
+      "id": 2,
+      "skillName": "React.js",
+      "amount": "95"
+    },
+    { "id": 3, "skillName": "Javascript", "amount": "85" },
+     {
+      "id": 4,
+      "skillName": "Typescript",
+      "amount": "55"
+    },
+    { "id": 5, "skillName": "Redux", "amount": "90" },
+    {
+      "id": 6,
+      "skillName": "React Native",
+      "amount": "70"
+    },
+     {
+      "id": 7,
+      "skillName": "Web3",
+      "amount": "70"
+    },
+    {
+      "id": 8,
+      "skillName": "Node.js",
+      "amount": "55"
+    },
+    { "id": 9, "skillName": "Express.js", "amount": "30" },
+    {
+      "id": 10,
+      "skillName": "MongoDB",
+      "amount": "30"
+    }
+  ]
+}

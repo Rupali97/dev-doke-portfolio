@@ -1,0 +1,43 @@
+{
+  "experience": [
+    {
+      "id": 0,
+      "link": "https://www.linkedin.com/company/vezures/",
+      "company": "Vezures",
+      "title": "Fullstack developer",
+      "dateFrom": "Oct 2019",
+      "dateTo": "Mar 2021",
+      "info": [
+        "This experience was a life-changing opportunity to dive into web and mobile app development.",
+        "Hands-on experience on my web skills and then started working on the Javascript frameworks React, React-Native, Laravel and many more.",
+        "Expereince of creating responsive dashboard ui along with API integration.",
+        "Experience in handling and creating android and iOS version of React-Native app, familiar with Android Studio and Xcode."
+
+      ],
+      "stack": ["HTML", "CSS/SASS/SCSS", "React", "Typescript", "Javascript", "React-Native", "Android", "iOS", "Laravel"],
+      "logoheight": 80,
+      "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
+      "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
+    },
+    {
+      "id": 1,
+      "link": "https://mahadao.com/",
+      "company": "MahaDAO",
+      "title": "Frontend Web3 developer",
+      "dateFrom": "Apr 2021",
+      "dateTo": "Present",
+      "info": [
+        "Experience of developing responsive and dynamic UI such as dashboard sites and landing pages with engaging user experience on any device using modern Javascript framework React and a CSS preprocessor Sass.",
+        "Developing dynamic websites that fetches data from and to API, parse and format to the analytic data and relayed it into React components. Implementing web3 integration (Ethereum and Tron blockchain) with react on MahaDAO product websites.",
+        "Deploying solidity contracts on Ethereum and Tron blockchain.",
+        "Testing apps and performing bug ﬁxes and code reviews.",
+        "Creating the telegram, discord, twitter notiﬁcation bot for the transactions occurring on MahaDAO product websites."
+      ],
+      "stack": ["HTML", "CSS/SASS/SCSS", "React", "Typescript", "Javascript", "React-Native", "Android", "iOS", "Web3", "Node.js", "Express.js", "MongoDB"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
+      "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    }
+    
+  ]
+}
