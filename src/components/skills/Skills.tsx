@@ -16,7 +16,14 @@ const Skills = () => {
 
   return (
     <Fade duration={1000}>
-      <div style={{ position: "relative", width: "100%", maxWidth: 600 }}>
+      <div
+        style={{
+          position: "relative",
+          width: "100%",
+          maxWidth: 600,
+          zIndex: 1,
+        }}
+      >
         <IsVisible once>
           {(isVisible: any) => (
             <div

@@ -43,7 +43,7 @@ const ExperienceCard = ({ experience }: any) => {
               <h3>
                 {dateFrom} - {dateTo}
               </h3>
-              <ul>
+              <ul className="experience-ul-p-l">
                 {info.map((point: any, idx: any) => (
                   <li
                     key={`${company}-point-${idx}`}
@@ -55,7 +55,7 @@ const ExperienceCard = ({ experience }: any) => {
               </ul>
             </div>
             <div className="experience-card-tech">
-              <ul>
+              <ul className="experience-ul-p-l">
                 {stack.map((tech: any) => (
                   <li key={`${company}-${tech}`}>{tech}</li>
                 ))}

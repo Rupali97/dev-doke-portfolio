@@ -112,6 +112,10 @@
   z-index: 1;
   pointer-events: none;
 }
+
+.experience-ul-p-l {
+  padding-inline-start: 10px !important;
+}
 @media screen and (max-width: 599px) {
   .experience-card-wrapper:hover .experience-card {
     transform: translateY(0);

@@ -1,6 +1,9 @@
 .about {
-  background-color: #000;
+  position: relative;
+  /* background-color: transparent; */
   margin-bottom: 128px;
+  padding: 0px 16px;
+  z-index: 10;
 }
 .about-text {
   width: 100%;

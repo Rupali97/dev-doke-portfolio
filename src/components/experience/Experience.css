@@ -1,6 +1,8 @@
 .experience {
   position: relative;
-  background-color: #000;
+  background-color: transparent;
+  position: relative;
+  z-index: 10;
 }
 .experience-content {
   margin: 0 auto;

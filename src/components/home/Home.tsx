@@ -38,6 +38,7 @@ const Home = () => {
           init={particlesInit}
           // loaded={particlesLoaded}
           className="particles"
+          canvasClassName="particles-canvas"
           options={{
             particles: {
               number: { value: 20 },
@@ -53,7 +54,7 @@ const Home = () => {
                 },
               },
               size: {
-                value: 50,
+                value: 30,
                 random: true,
               },
               line_linked: {
@@ -84,12 +85,12 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Rupali Doke</span>.{" "}
+              Hi, I'm <span>Rupali Doke</span>.{" "}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
             </h1>
-            <h1 className="greeting-text">
+            <h5>
               <Typewriter
                 options={{
                   strings: [
@@ -104,7 +105,7 @@ const Home = () => {
                   delay: 120,
                 }}
               />
-            </h1>
+            </h5>
             <Bounce cascade>
               <div className="links">
                 <a

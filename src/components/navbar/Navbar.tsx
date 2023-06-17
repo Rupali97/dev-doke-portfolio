@@ -1,19 +1,19 @@
-import React, { useState } from 'react'
-import './Navbar.css'
-import { Link } from 'react-scroll'
-import MobileNav from '../mobileNav/MobileNav'
+import React, { useState } from "react";
+import "./Navbar.css";
+import { Link } from "react-scroll";
+import MobileNav from "../mobileNav/MobileNav";
 
 const Navbar = () => {
-  const [mobilenavVisible, setMobilenavVisible] = useState(false)
-  const [hamburgerClass, setHamburgerClass] = useState('')
+  const [mobilenavVisible, setMobilenavVisible] = useState(false);
+  const [hamburgerClass, setHamburgerClass] = useState("");
   const toggleMobilenavVisible = () => {
-    setMobilenavVisible(!mobilenavVisible)
-    if (hamburgerClass === '') {
-      setHamburgerClass('open')
+    setMobilenavVisible(!mobilenavVisible);
+    if (hamburgerClass === "") {
+      setHamburgerClass("open");
     } else {
-      setHamburgerClass('')
+      setHamburgerClass("");
     }
-  }
+  };
   return (
     <div className="navbar">
       <div className="navlinks">
@@ -27,16 +27,16 @@ const Navbar = () => {
             ABOUT
           </Link>
         </div>
-        {/* <div className="navlink-wrapper">
+        <div className="navlink-wrapper">
           <Link to="experience" spy={true} smooth={true} duration={500}>
             EXPERIENCE
           </Link>
-        </div> */}
-        <div className="navlink-wrapper">
+        </div>
+        {/* <div className="navlink-wrapper">
           <Link to="projects" spy={true} smooth={true} duration={500}>
             PROJECTS
           </Link>
-        </div>
+        </div> */}
         <div className="navlink-wrapper">
           <Link to="contact" spy={true} smooth={true} duration={500}>
             CONTACT
@@ -60,7 +60,7 @@ const Navbar = () => {
         mobilenavVisible={mobilenavVisible}
       />
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

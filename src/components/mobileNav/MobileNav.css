@@ -3,9 +3,12 @@
   top: 63px;
   width: 100%;
   clip: rect(0, 9999px, 9999px, -9999px);
+  /* z-index: 100; */
 }
 .mobilenav {
-  background-color: #1a212e;
+  background-color: #000;
+  position: relative;
+  z-index: 100;
 }
 .mobilenav.on {
   transition: transform ease-in-out 0.4s, opacity ease-out 0.3s;
